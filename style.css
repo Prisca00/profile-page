@@ -6,6 +6,8 @@ body{
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 /*
     2. Remove default margin
@@ -131,13 +133,7 @@ margin-bottom: 1rem;
 
  .prisca ul li a {
     text-decoration: none;
-    /*display:block;*/
-    display: flex;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
+    display:block; 
     background-color: hsl(0, 0%, 20%);
     color:hsl(0, 0%, 100%);
     padding: 0.5rem 5rem;
