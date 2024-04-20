@@ -13,8 +13,7 @@ body{
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  list-style-type: none;
+ 
 }
 /*
     Typographic tweaks!
@@ -122,13 +121,16 @@ p{
 
 .prisca ul{
     margin-top: 1.rem;
+    list-style-type: none;
 }
+
  .prisca ul li:not(:last-child) {
 margin-bottom: 1rem;
 
  }
 
  .prisca ul li a {
+    text-decoration: none;
     display:block;
     background-color: hsl(0, 0%, 20%);
     color:hsl(0, 0%, 100%);
@@ -143,77 +145,3 @@ margin-bottom: 1rem;
  }
 
 
-
-    /*display: grid;
-    min-height: 100vh;
-    place-content: center;
-    margin: 1rem;
-    background-color: black
-}
-.prisca{
-    background-color: rgb(49, 44, 44); 
-max-width: 800px;
-margin: 0 auto;
-}
-
-img{
-    width: 20%; 
-}
-
-
-
-
-    /*background-color: black;  color: white; 
-    min-height: 100vh; 
-    position: relative;
-    
-    
-}
-img{ width: 15%; 
-    max-width: 100%; border-radius: 50%;
-}
-.abuja{
-    color: greenyellow; font-size: large;
-}
-.prisca{ position: absolute;
-    
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    padding: 3rem; text-align: center; 
-    background-color: rgb(49, 44, 44); 
-    border-radius: 10px;
-
-}
-
-.osuji{
-    margin: auto;
-    width: 50%;
-    
-}
-.container{
-    padding: 1rem; background-color: rgb(32, 29, 29); border-radius: 1rem; 
-    text-align: center; margin-top: 1rem; margin-bottom: 1rem;
-}
-
-
-/*@media (min-width: 320px) {
-    img {
-        max-width: 100%; 
-    }
-
-    
-    body{
-         
-        margin: 0 auto;
-    }
-}
-
-/*@media (min-width: 600px) {
-    body{
-        width: 50%; 
-        margin: 0 auto;
-    }
-
-}
