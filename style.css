@@ -133,6 +133,9 @@ margin-bottom: 1rem;
     text-decoration: none;
     /*display:block;*/
     display: flex;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 20%);
