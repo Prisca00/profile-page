@@ -117,28 +117,40 @@ p{
     margin-bottom: 1.5rem;
 }
 
-.prisca ul{
+ .prisca .btn{
     margin-top: 1.rem;
-    overflow: hidden;
-    list-style-type: none;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+ 
 }
 
- .prisca ul li:not(:last-child) {
-margin-bottom: 1rem;
+ .prisca div {
+margin-bottom: 2rem; 
+
+
 
  }
 
- .prisca ul li a {
-    text-decoration: none;
-    display:block; 
+ .prisca div a {
+    text-decoration: none; 
     background-color: hsl(0, 0%, 20%);
-    color:hsl(0, 0%, 100%);
+    color:hsl(0, 92%, 51%);
     padding: 0.5rem 5rem;
     border-radius: .5rem;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin 0 auto;
+    
  }
 
- .prisca ul li a:hover{
+ .prisca div a:hover{
     background-color: hsl(75, 94%, 57%);
     color: black;
  }
