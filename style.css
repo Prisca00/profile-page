@@ -117,11 +117,9 @@ p{
     margin-bottom: 1.5rem;
 }
 
- .prisca .btn{
+ .prisca btn{
     margin-top: 1.rem;
   display:flex;
-  flex-direction: column;
-  width: 100%;
   justify-content: center;
   align-items: center;
   
@@ -142,11 +140,7 @@ margin-bottom: 2rem;
     padding: 0.5rem 5rem;
     border-radius: .5rem;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin 0 auto;
+    
     
  }
 
