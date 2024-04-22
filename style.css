@@ -70,7 +70,7 @@ body { background-color: black; min-height: 100vh;
    place-content: center;
     display: grid;
     font-family: "inter", sans-serif;
-    margin: 1rem;
+    margin: 0 auto;
     position: relative;
 
 
@@ -117,29 +117,30 @@ p{
     margin-bottom: 1.5rem;
 }
 
- .prisca btn{
-    margin-top: 1.rem;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+    .ayanfe {
+      margin-top: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   
  
 }
 
- .prisca div {
-margin-bottom: 2rem; 
+ 
 
 
-
- }
-
- .prisca div a {
+ .ayanfe a {
     text-decoration: none; 
     background-color: hsl(0, 0%, 20%);
-    color:hsl(0, 92%, 51%);
-    padding: 0.5rem 5rem;
+    color:white;
+   padding: 1rem 5rem;
     border-radius: .5rem;
-    font-weight: bold;
+    font-weight: bold; 
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    width: 100%;
+    
     
     
  }
