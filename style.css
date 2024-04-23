@@ -142,8 +142,8 @@ p{
     font-weight: 600; 
     margin-bottom: 1rem;
     white-space: nowrap;
-       width: 100%;
-       max-width: 70%;
+      width: 100%;
+       max-width: 100%;
  }
 
  .prisca div a:hover{
@@ -151,4 +151,8 @@ p{
     color: black;
  }
 
-
+@media (max-width:600) {
+  .ayanfe a {
+    max-width: 85%;
+  }
+}
