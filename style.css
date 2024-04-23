@@ -8,6 +8,7 @@ body{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 /*
     2. Remove default margin
@@ -66,12 +67,14 @@ h3 {
 }
 }
 
-body { background-color: black; min-height: 100vh; 
+body { background-color: black; 
+  min-height: 100vh; 
    place-content: center;
     display: grid;
     font-family: "inter", sans-serif;
     margin: 0 auto;
     position: relative;
+
 
 
 }
@@ -134,15 +137,13 @@ p{
     text-decoration: none; 
     background-color: hsl(0, 0%, 20%);
     color:white;
-   padding: 1rem 5rem;
+   padding: 0.5rem 5rem;
     border-radius: .5rem;
-    font-weight: bold; 
+    font-weight: 600; 
     margin-bottom: 1rem;
     white-space: nowrap;
-    width: 100%;
-    
-    
-    
+       width: 100%;
+       max-width: 100%;
  }
 
  .prisca div a:hover{
