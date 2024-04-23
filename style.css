@@ -151,8 +151,9 @@ p{
     color: black;
  }
 
-@media (max-width:600) {
+@media (max-width:400px) {
   .ayanfe a {
-    max-width: 85%;
+    max-width: 100%;
+    width: 100%;
   }
 }
